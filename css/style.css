@@ -717,10 +717,6 @@ video {
   width: 100%;
 }
 
-.w-3\/4 {
-  width: 75%;
-}
-
 .max-w-6xl {
   max-width: 72rem;
 }
@@ -881,29 +877,9 @@ video {
   padding: 1rem;
 }
 
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
-}
-
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-
-.py-32 {
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-}
-
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
 }
 
 .px-6 {
@@ -916,6 +892,16 @@ video {
   padding-bottom: 7rem;
 }
 
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .pl-4 {
   padding-left: 1rem;
 }
@@ -925,18 +911,13 @@ video {
   line-height: 2rem;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
-.text-7xl {
-  font-size: 4.5rem;
+.text-5xl {
+  font-size: 3rem;
   line-height: 1;
 }
 
@@ -953,16 +934,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .font-medium {
@@ -1021,6 +992,18 @@ video {
   border-radius: 0px 58px 58px 58px;
 }
 
+article.open {
+  background: white;
+}
+
+article.open h3 {
+  color: rgb(31, 41, 45);
+}
+
+article.open .extra {
+  display: flex;
+}
+
 .only\:capitalize:only-child {
   text-transform: capitalize;
 }
@@ -1050,15 +1033,6 @@ video {
 
   .md\:top-28 {
     top: 7rem;
-  }
-
-  .md\:mx-auto {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .md\:mb-0 {
-    margin-bottom: 0px;
   }
 
   .md\:flex {
@@ -1109,24 +1083,8 @@ video {
     width: 92px;
   }
 
-  .md\:w-full {
-    width: 100%;
-  }
-
-  .md\:w-96 {
-    width: 24rem;
-  }
-
   .md\:w-auto {
     width: auto;
-  }
-
-  .md\:flex-1 {
-    flex: 1 1 0%;
-  }
-
-  .md\:flex-grow-0 {
-    flex-grow: 0;
   }
 
   .md\:py-36 {
@@ -1182,6 +1140,10 @@ video {
 
   .lg\:flex-row-reverse {
     flex-direction: row-reverse;
+  }
+
+  .lg\:items-center {
+    align-items: center;
   }
 
   .lg\:justify-between {

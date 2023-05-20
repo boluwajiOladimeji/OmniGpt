@@ -17,3 +17,15 @@
 .phone-yellowbg {
   border-radius: 0px 58px 58px 58px;
 }
+
+article.open {
+  background: white;
+}
+
+article.open h3 {
+  color: rgb(31, 41, 45);
+}
+
+article.open .extra {
+  display: flex;
+}
