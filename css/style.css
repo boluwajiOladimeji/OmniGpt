@@ -911,6 +911,11 @@ video {
   padding-right: 1.5rem;
 }
 
+.py-28 {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
 .pl-4 {
   padding-left: 1rem;
 }
