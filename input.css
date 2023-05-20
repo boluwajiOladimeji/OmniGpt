@@ -35,7 +35,5 @@ article.open .extra {
 }
 
 .swiper-pagination-bullet {
-}
-
-.swiper-pagination-bullet {
+  background-color: gray;
 }

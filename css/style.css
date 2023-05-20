@@ -1042,6 +1042,7 @@ article.open .extra {
 }
 
 .swiper-pagination-bullet {
+  background-color: gray;
 }
 
 .only\:capitalize:only-child {
