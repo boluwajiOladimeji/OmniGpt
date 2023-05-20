@@ -13,3 +13,40 @@ solutionsEl.addEventListener('click', (e) => {
   }
   selected.classList.add('open');
 });
+
+function initSwiper() {
+  const swiper = new Swiper('.swiper', {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    freeMode: true,
+    loop: true,
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true,
+      //   dynamicBullets: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    // autoplay: {
+    //   delay: 4000,
+    //   disableOnInteraction: false,
+    // },
+    breakpoints: {
+      700: {
+        slidesPerView: 2,
+      },
+      1200: {
+        slidesPerView: 3,
+      },
+
+      1400: {
+        slidesPerView: 4,
+      },
+    },
+  });
+}
+
+initSwiper();

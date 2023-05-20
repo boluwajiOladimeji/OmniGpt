@@ -29,3 +29,7 @@ article.open h3 {
 article.open .extra {
   display: flex;
 }
+
+.swiper-wrapper {
+  height: 90%;
+}

@@ -15,6 +15,9 @@
       integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Simple tailwind starter</title>
   </head>
@@ -117,7 +120,7 @@
 
       <!-- All in One -->
       <section
-        class="lg:flex lg:flex-row-reverse lg:items-center space-y-16 lg:space-y-0 lg:justify-between lg:gap-x-10 mb-8">
+        class="lg:flex lg:flex-row-reverse lg:items-center space-y-16 lg:space-y-0 lg:justify-between lg:gap-x-10 mb-20">
         <!-- Solution Container -->
         <div class="lg:w-1/2 space-y-8">
           <h2 class="font-medium text-white max-w-xl text-4xl md:text-5xl">
@@ -248,8 +251,203 @@
             class="phone-yellowbg w-16 h-16 md:w-[108px] md:h-[108px] absolute bottom-24 md:bottom-28 left-0 bg-darkGreen -rotate-90 transform -translate-x-3/4 -z-10"></div>
         </div>
       </section>
+
+      <section class="testimonials">
+        <div>
+          <h2
+            class="font-medium text-white max-w-xl text-4xl md:text-5xl capitalize mb-8">
+            see what people are
+            <span class="text-darkGreen"> saying about us</span>
+          </h2>
+        </div>
+        <!-- Testimonials -->
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide mb-10">
+              <article
+                class="p-10 bg-grayish rounded-lg flex flex-col space-y-5">
+                <div class="flex items-center rating gap-2">
+                  <i class="fa-solid fa-star" style="color: #ffea00"></i>
+                  <i class="fa-solid fa-star" style="color: #ffea00"></i>
+                  <i class="fa-solid fa-star" style="color: #ffea00"></i>
+                  <i class="fa-solid fa-star" style="color: #ffea00"></i>
+                  <i class="fa-solid fa-star" style="color: #ffea00"></i>
+                </div>
+                <h3 class="text-base text-white">
+                  OmniGPT has completely transformed the way my team works
+                  together.
+                </h3>
+                <p class="text-sm text-white opacity-70">
+                  “With the ability to seamlessly communicate across multiple
+                  channels, we are able to collaborate in real-time and make
+                  decisions faster than ever. Plus, the AI-powered chatbot saves
+                  us time and resources by handling routine tasks and inquiries.
+                  I would highly recommend OmniGPT to any organization looking
+                  to improve their productivity and efficiency”
+                </p>
+                <div class="flex items-center gap-2">
+                  <img src="./images/testimonial-1.png" alt="" />
+                  <p class="text-sm">Luke John</p>
+                </div>
+              </article>
+            </div>
+            <!-- slide 2 -->
+            <div class="swiper-slide mb-10">
+              <article
+                class="p-10 bg-grayish rounded-lg flex flex-col space-y-5">
+                <div class="flex items-center rating gap-2">
+                  <i class="fa-solid fa-star" style="color: #ffea00"></i>
+                  <i class="fa-solid fa-star" style="color: #ffea00"></i>
+                  <i class="fa-solid fa-star" style="color: #ffea00"></i>
+                  <i class="fa-solid fa-star" style="color: #ffea00"></i>
+                  <i class="fa-solid fa-star" style="color: #ffea00"></i>
+                </div>
+                <h3 class="text-base text-white">
+                  OmniGPT has completely transformed the way my team works
+                  together.
+                </h3>
+                <p class="text-sm text-white opacity-70">
+                  “With the ability to seamlessly communicate across multiple
+                  channels, we are able to collaborate in real-time and make
+                  decisions faster than ever. Plus, the AI-powered chatbot saves
+                  us time and resources by handling routine tasks and inquiries.
+                  I would highly recommend OmniGPT to any organization looking
+                  to improve their productivity and efficiency”
+                </p>
+                <div class="flex items-center gap-2">
+                  <img src="./images/testimonial-2.png" alt="" />
+                  <p class="text-sm">Rachel smith</p>
+                </div>
+              </article>
+            </div>
+            <!-- slide 2 -->
+            <div class="swiper-slide mb-10">
+              <article
+                class="p-10 bg-grayish rounded-lg flex flex-col space-y-5">
+                <div class="flex items-center rating gap-2">
+                  <i class="fa-solid fa-star" style="color: #ffea00"></i>
+                  <i class="fa-solid fa-star" style="color: #ffea00"></i>
+                  <i class="fa-solid fa-star" style="color: #ffea00"></i>
+                  <i class="fa-solid fa-star" style="color: #ffea00"></i>
+                  <i class="fa-solid fa-star" style="color: #ffea00"></i>
+                </div>
+                <h3 class="text-base text-white">
+                  OmniGPT has completely transformed the way my team works
+                  together.
+                </h3>
+                <p class="text-sm text-white opacity-70">
+                  “With the ability to seamlessly communicate across multiple
+                  channels, we are able to collaborate in real-time and make
+                  decisions faster than ever. Plus, the AI-powered chatbot saves
+                  us time and resources by handling routine tasks and inquiries.
+                  I would highly recommend OmniGPT to any organization looking
+                  to improve their productivity and efficiency”
+                </p>
+                <div class="flex items-center gap-2">
+                  <img src="./images/testimonial-2.png" alt="" />
+                  <p class="text-sm">Rachel smith</p>
+                </div>
+              </article>
+            </div>
+            <!-- slide 2 -->
+            <div class="swiper-slide mb-10">
+              <article
+                class="p-10 bg-grayish rounded-lg flex flex-col space-y-5">
+                <div class="flex items-center rating gap-2">
+                  <i class="fa-solid fa-star" style="color: #ffea00"></i>
+                  <i class="fa-solid fa-star" style="color: #ffea00"></i>
+                  <i class="fa-solid fa-star" style="color: #ffea00"></i>
+                  <i class="fa-solid fa-star" style="color: #ffea00"></i>
+                  <i class="fa-solid fa-star" style="color: #ffea00"></i>
+                </div>
+                <h3 class="text-base text-white">
+                  OmniGPT has completely transformed the way my team works
+                  together.
+                </h3>
+                <p class="text-sm text-white opacity-70">
+                  “With the ability to seamlessly communicate across multiple
+                  channels, we are able to collaborate in real-time and make
+                  decisions faster than ever. Plus, the AI-powered chatbot saves
+                  us time and resources by handling routine tasks and inquiries.
+                  I would highly recommend OmniGPT to any organization looking
+                  to improve their productivity and efficiency”
+                </p>
+                <div class="flex items-center gap-2">
+                  <img src="./images/testimonial-2.png" alt="" />
+                  <p class="text-sm">Rachel smith</p>
+                </div>
+              </article>
+            </div>
+            <!-- slide 2 -->
+            <div class="swiper-slide mb-10">
+              <article
+                class="p-10 bg-grayish rounded-lg flex flex-col space-y-5">
+                <div class="flex items-center rating gap-2">
+                  <i class="fa-solid fa-star" style="color: #ffea00"></i>
+                  <i class="fa-solid fa-star" style="color: #ffea00"></i>
+                  <i class="fa-solid fa-star" style="color: #ffea00"></i>
+                  <i class="fa-solid fa-star" style="color: #ffea00"></i>
+                  <i class="fa-solid fa-star" style="color: #ffea00"></i>
+                </div>
+                <h3 class="text-base text-white">
+                  OmniGPT has completely transformed the way my team works
+                  together.
+                </h3>
+                <p class="text-sm text-white opacity-70">
+                  “With the ability to seamlessly communicate across multiple
+                  channels, we are able to collaborate in real-time and make
+                  decisions faster than ever. Plus, the AI-powered chatbot saves
+                  us time and resources by handling routine tasks and inquiries.
+                  I would highly recommend OmniGPT to any organization looking
+                  to improve their productivity and efficiency”
+                </p>
+                <div class="flex items-center gap-2">
+                  <img src="./images/testimonial-2.png" alt="" />
+                  <p class="text-sm">Rachel smith</p>
+                </div>
+              </article>
+            </div>
+            <!-- slide 2 -->
+            <div class="swiper-slide mb-10">
+              <article
+                class="p-10 bg-grayish rounded-lg flex flex-col space-y-5">
+                <div class="flex items-center rating gap-2">
+                  <i class="fa-solid fa-star" style="color: #ffea00"></i>
+                  <i class="fa-solid fa-star" style="color: #ffea00"></i>
+                  <i class="fa-solid fa-star" style="color: #ffea00"></i>
+                  <i class="fa-solid fa-star" style="color: #ffea00"></i>
+                  <i class="fa-solid fa-star" style="color: #ffea00"></i>
+                </div>
+                <h3 class="text-base text-white">
+                  OmniGPT has completely transformed the way my team works
+                  together.
+                </h3>
+                <p class="text-sm text-white opacity-70">
+                  “With the ability to seamlessly communicate across multiple
+                  channels, we are able to collaborate in real-time and make
+                  decisions faster than ever. Plus, the AI-powered chatbot saves
+                  us time and resources by handling routine tasks and inquiries.
+                  I would highly recommend OmniGPT to any organization looking
+                  to improve their productivity and efficiency”
+                </p>
+                <div class="flex items-center gap-2">
+                  <img src="./images/testimonial-2.png" alt="" />
+                  <p class="text-sm">Rachel smith</p>
+                </div>
+              </article>
+            </div>
+            <!-- slide 2 -->
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
     </main>
     <!-- script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="./js/app.js"></script>
   </body>
 </html>
