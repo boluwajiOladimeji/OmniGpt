@@ -1110,6 +1110,11 @@ article.open .extra {
     padding-bottom: 9rem;
   }
 
+  .md\:py-28 {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+
   .md\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
@@ -1150,6 +1155,10 @@ article.open .extra {
 
   .lg\:max-w-sm {
     max-width: 24rem;
+  }
+
+  .lg\:flex-1 {
+    flex: 1 1 0%;
   }
 
   .lg\:flex-row {
