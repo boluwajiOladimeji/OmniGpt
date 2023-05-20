@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,600&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Simple tailwind starter</title>
+  </head>
+  <body class="bg-deepDarkBlue text-white">
+    <main class="px-4 max-w-6xl mx-auto">
+      <nav class="flex items-center justify-between text-white py-6">
+        <img src="./images/Group 13342.svg" alt="" />
+        <button class="md:hidden text-2xl">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <ul
+          class="hidden md:flex flex-row items-center space-x-20 flex-1 justify-end only:capitalize">
+          <a href="#" class="capitalize hover:text-darkGreen">Blog</a>
+          <a href="#" class="capitalize hover:text-darkGreen">Contact us</a>
+          <a href="#" class="capitalize hover:text-darkGreen">sign in</a>
+        </ul>
+      </nav>
+      <!-- Hero Flex -->
+      <div
+        class="flex flex-col-reverse space-y-8 lg:flex-row lg:space-y-0 py-32 lg:justify-between md:py-36">
+        <!-- hero-text -->
+        <div class="hero-text lg:w-1/2">
+          <h1 class="text-7xl font-medium mb-4">
+            Bring the power of AI to your conversations
+          </h1>
+          <p class="text-3xl font-medium mb-4">
+            Work Faster, Smarter, and Better Together
+          </p>
+          <p class="max-w-md text-xl mb-6 opacity-80">
+            Experience the power of AI language models with OmniGPT. Our chat
+            platform provides seamless communication across multiple channels.
+          </p>
+          <p class="text-xl font-normal mb-4">
+            Try the OmniGPT for free. 15-day trial, no credit card required.
+          </p>
+
+          <button class="py-3 px-5 bg-darkGreen text-base rounded text-white">
+            Start your free trial
+          </button>
+        </div>
+
+        <!-- hero image -->
+
+        <div class="image-container space-y-4">
+          <!-- first row -->
+          <div class="flex items-end justify-between space-x-4 mb-4 md:mb-0">
+            <div class="relative flex-1 md:w-80 h-24">
+              <div
+                class="hero-cover absolute bg-darkYellow w-full bottom-0 h-24 -z-10 over">
+                <img
+                  src="./images/mobileHero.png"
+                  alt=""
+                  class="absolute bottom-0" />
+              </div>
+            </div>
+            <div
+              class="w-24 h-24 bg-darkPurple rounded-full flex items-center justify-center">
+              <img src="./images/arrow-slant.png" class="w-12" alt="" />
+            </div>
+          </div>
+
+          <!-- second row hidden -->
+          <div class="hidden lg:flex items-end justify-between space-x-4">
+            <div
+              class="w-24 h-24 bg-green rounded-full flex items-center bg-darkGreen justify-center">
+              <img src="./images/arrow-slant.png" class="w-12" alt="" />
+            </div>
+            <!-- image -->
+            <div class="relative flex-1 md:w-80 h-24">
+              <div
+                class="absolute bg-darkWhite w-full bottom-0 h-24 -z-10 flex justify-center rounded-full">
+                <img
+                  src="./images/shaking.png"
+                  alt=""
+                  class="absolute bottom-0 top-0 h-full mx-auto w-1/2" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Third row -->
+          <div class="hidden lg:block relative space-y-4">
+            <div class="update bg-darkPurple h-24 flex items-center -z-20">
+              <p class="w-64 ml-auto pl-4">
+                @OmniGPT Can you give us an update on the latest project status?
+              </p>
+            </div>
+            <div class="flex items-end justify-between space-x-4">
+              <div
+                class="hero-cover flex-1 md:w-80 w-2/3 h-24 bg-darkGreen -z-10"></div>
+              <div
+                class="yellow-radius bg-darkYellow w-24 h-24 -rotate-90 rounded-full flex items-center justify-center"></div>
+            </div>
+            <img
+              src="./images/andrea.png"
+              alt=""
+              class="absolute bottom-0 h-full" />
+          </div>
+        </div>
+      </div>
+
+      <!-- All in One -->
+      <section class="lg:flex lg:flex-row-reverse space-y-16 lg:space-y-0 mb-8">
+        <!-- Solution Container -->
+        <div class="lg:w-1/2 space-y-8">
+          <h2 class="font-medium text-white text-6xl">
+            The <span class="text-darkGreen"> All-in-One</span> Solution for
+            Conversation AI
+          </h2>
+
+          <!-- articles container -->
+          <div class="solutions space-y-4">
+            <!-- 1st article -->
+            <article class="p-4 space-y-2 bg-white rounded-lg">
+              <h3 class="capitalize font-medium text-gray-900 text-2xl">
+                Seamless Collaboration
+              </h3>
+              <div class="flex items-center justify-between">
+                <p class="text-gray-800 sm:max-w-md text-lg lg:max-w-sm">
+                  You can easily collaborate with friends and colleagues on
+                  projects, whether it's for work or personal use.
+                </p>
+                <div
+                  class="h-24 w-24 hidden sm:flex items-center justify-center bg-darkGreen rounded">
+                  <img src="./images/grip.png" alt="" />
+                </div>
+              </div>
+            </article>
+            <!-- end of first article -->
+
+            <!-- 2nd article -->
+            <article class="p-4 space-y-2 bg-grayish text-white rounded-lg">
+              <h3 class="capitalize font-medium text-white text-2xl">
+                Seamless Collaboration
+              </h3>
+              <div class="hidden items-center justify-between">
+                <p class="sm:max-w-md text-lg lg:max-w-sm text-gray-700">
+                  You can easily collaborate with friends and colleagues on
+                  projects, whether it's for work or personal use.
+                </p>
+                <div
+                  class="h-24 w-24 hidden sm:flex items-center justify-center bg-darkGreen rounded">
+                  <img src="./images/grip.png" alt="" />
+                </div>
+              </div>
+            </article>
+            <!-- end of 2nd article -->
+
+            <!-- 3rd article -->
+            <article class="p-4 space-y-2 bg-grayish text-white rounded-lg">
+              <h3 class="capitalize font-medium text-white text-2xl">
+                Seamless Collaboration
+              </h3>
+              <div class="hidden items-center justify-between">
+                <p class="sm:max-w-md text-lg lg:max-w-sm text-gray-700">
+                  You can easily collaborate with friends and colleagues on
+                  projects, whether it's for work or personal use.
+                </p>
+                <div
+                  class="h-24 w-24 hidden sm:flex items-center justify-center bg-darkGreen rounded">
+                  <img src="./images/grip.png" alt="" />
+                </div>
+              </div>
+            </article>
+            <!-- end of 3rd article -->
+
+            <!-- 4th article -->
+            <article class="p-4 space-y-2 bg-grayish text-white rounded-lg">
+              <h3 class="capitalize font-medium text-white text-2xl">
+                Seamless Collaboration
+              </h3>
+              <div class="hidden items-center justify-between">
+                <p class="sm:max-w-md text-lg lg:max-w-sm text-gray-700">
+                  You can easily collaborate with friends and colleagues on
+                  projects, whether it's for work or personal use.
+                </p>
+                <div
+                  class="h-24 w-24 hidden sm:flex items-center justify-center bg-darkGreen rounded">
+                  <img src="./images/grip.png" alt="" />
+                </div>
+              </div>
+            </article>
+            <!-- end of 4th article -->
+          </div>
+        </div>
+
+        <!-- Image Container -->
+
+        <div
+          class="img-container w-48 h-96 mx-auto relative md:w-80 md:h-[655px] object-contain">
+          <img
+            src="./images/apple-phone.png"
+            alt=""
+            class="absolute top-0 left-0 w-full z-20" />
+          <img
+            src="./images/person.png"
+            alt=""
+            class="top-16 left-0 w-[93%] mx-auto h-full z-10 md:w-[90%] md:h-[98.5%]" />
+
+          <!-- messenger -->
+          <div
+            class="absolute w-[71px] h-[72px] transform -translate-x-2/4 top-8 md:top-12 left-0 rounded-full flex items-center justify-center bg-white md:h-28 md:w-28 z-30">
+            <img
+              src="./images/main-facebook.png"
+              alt=""
+              class="w-8 md:w-14 object-cover" />
+          </div>
+
+          <!-- Whatsapp -->
+          <div
+            class="absolute w-[71px] h-[72px] transform translate-x-2/4 bottom-8 right-0 rounded-full flex items-center justify-center bg-white md:h-28 md:w-28 z-30">
+            <img
+              src="./images/mainwhatsapp.png"
+              alt=""
+              class="w-14 md:w-[92px] object-cover" />
+          </div>
+
+          <!-- yellow background -->
+          <div
+            class="phone-yellowbg w-16 h-16 md:w-[108px] md:h-[108px] absolute top-24 md:top-28 right-0 bg-darkYellow -rotate-90 transform translate-x-3/4 -z-10"></div>
+
+          <div
+            class="phone-yellowbg w-16 h-16 md:w-[108px] md:h-[108px] absolute bottom-24 md:bottom-28 left-0 bg-darkGreen -rotate-90 transform -translate-x-3/4 -z-10"></div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

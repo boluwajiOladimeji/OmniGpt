@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero-cover {
+  border-radius: 67px 0px 67px 67px;
+}
+
+.update {
+  border-radius: 53.5px 53.5px 53.5px 0px;
+}
+
+.yellow-radius {
+  border-radius: 0px 58px 58px 58px;
+}
+
+.phone-yellowbg {
+  border-radius: 0px 58px 58px 58px;
+}
