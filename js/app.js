@@ -50,3 +50,15 @@ function initSwiper() {
 }
 
 initSwiper();
+
+const navBtn = document.querySelector('.hamburger-btn');
+const sidebarBtn = document.querySelector('.sidebar-btn');
+const sidebar = document.querySelector('.sidebar');
+
+navBtn.addEventListener('click', (e) => {
+  sidebar.classList.toggle('show');
+});
+
+sidebarBtn.addEventListener('click', (e) => {
+  sidebar.classList.remove('show');
+});

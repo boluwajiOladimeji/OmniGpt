@@ -42,3 +42,7 @@ article.goTop {
   margin-top: 5rem;
   background: red;
 }
+
+.show {
+  transform: translateX(0);
+}

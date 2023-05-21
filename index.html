@@ -25,7 +25,7 @@
     <main class="px-6 max-w-6xl mx-auto">
       <nav class="flex items-center justify-between text-white py-6">
         <img src="./images/Group 13342.svg" alt="" />
-        <button class="md:hidden text-2xl">
+        <button class="hamburger-btn md:hidden text-2xl">
           <i class="fa-solid fa-bars"></i>
         </button>
         <ul
@@ -495,6 +495,30 @@
         </div>
       </div>
     </footer>
+    <div
+      class="sidebar -translate-x-full sidebar fixed top-0 left-0 w-full h-full bg-deepDarkBlue opacity-85 z-50 p-8 space-y-12 transform duration-500 md:-translate-x-full ease-in">
+      <div
+        class="flex justify-end text-darkGreen text-6xl cursor-pointer sidebar-btn">
+        <i class="fa-solid fa-xmark"></i>
+      </div>
+      <ul class="flex flex-col space-y-20 items-center capitalize">
+        <li>
+          <a href="#" class="text-3xl uppercase font-bold hover:text-darkGreen"
+            >blog</a
+          >
+        </li>
+        <li>
+          <a href="#" class="text-3xl uppercase font-bold hover:text-darkGreen"
+            >Contact us</a
+          >
+        </li>
+        <li>
+          <a href="#" class="text-3xl uppercase font-bold hover:text-darkGreen"
+            >sign in</a
+          >
+        </li>
+      </ul>
+    </div>
     <!-- script -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="./js/app.js"></script>
